@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 bevy = "0.16.0"
+
+[[example]]
+name = "grid"
+path = "example/ui/grid.rs"
