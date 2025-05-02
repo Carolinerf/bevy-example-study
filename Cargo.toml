@@ -4,8 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+argh = "0.1.13"
 bevy = "0.16.0"
 
 [[example]]
 name = "grid"
 path = "example/ui/grid.rs"
+
+[[example]]
+name = "many_glyphs"
+path = "example/stress_tests/many_glyphs.rs"
